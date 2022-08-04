@@ -15,6 +15,32 @@ for (let i = 0; i < 5; i++) {
 }
 
 
+
+// butterfly pattern--
+
+// for (i = 1; i < 2 * 5; i++) {
+//     for (j = 1; j <= 2 * 5; j++) {
+//         if (i <= 5) {
+//             if (j <= i || j >= ((2 * 5) + 1) - i) {
+//                 process.stdout.write('*')
+//             } else {
+//                 process.stdout.write(' ')
+
+//             }
+//         } else {
+//             if (j < ((2 * 5) + 1) - i || j > i) {
+//                 process.stdout.write('*')
+
+//             } else {
+//                 process.stdout.write(' ')
+
+//             }
+//         }
+//     } console.log('');
+// }
+
+
+
 // hollow increasing triangle--
 
 // for(let i=1; i<=5; i++) {
@@ -62,28 +88,6 @@ for (let i = 0; i < 5; i++) {
 //     }console.log('');
 // }
 
-// butterfly pattern--
-
-// for (i = 1; i < 2 * 5; i++) {
-//     for (j = 1; j <= 2 * 5; j++) {
-//         if (i <= 5) {
-//             if (j <= i || j >= ((2 * 5) + 1) - i) {
-//                 process.stdout.write('*')
-//             } else {
-//                 process.stdout.write(' ')
-
-//             }
-//         } else {
-//             if (j < ((2 * 5) + 1) - i || j > i) {
-//                 process.stdout.write('*')
-
-//             } else {
-//                 process.stdout.write(' ')
-
-//             }
-//         }
-//     } console.log('');
-// }
 
 // plus pattern --
 
