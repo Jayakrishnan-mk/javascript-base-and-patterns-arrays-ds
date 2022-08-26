@@ -884,3 +884,20 @@
 // }
 
 //  removeDublicate([1,2,2,1,3,4,5,4,3,4,4,7,8])
+
+
+// recursion--------------------------------------------------------------------------------
+
+
+// function countDown(number) {
+
+//     console.log(number);
+//     const newNumber = number + 1;
+
+//     if (newNumber < 11) {
+//         countDown(newNumber);
+//     }
+// }
+
+// countDown(1);
+

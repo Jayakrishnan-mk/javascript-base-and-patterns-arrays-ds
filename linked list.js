@@ -3,7 +3,7 @@ function LinkedList() {
     let head = null;
 
     const Node = function (element) {
-        this.element = element;
+        this.data = element;
         this.next = null;
     };
 

@@ -105,3 +105,45 @@
 //         }
 //     }
 // }
+
+//   unique elements ---
+
+// const arr  = [1,2,2,3,4,5,4,4];
+// let flag;
+// for(let i=0; i<arr.length-1; i++) {
+//     flag = 0;
+//     for(let j=0; j<arr.length-1; j++) {
+//         if(arr[i] == arr[j]) {
+//             flag++;
+//         }
+//     }
+//     if(flag < 2){
+//         console.log(arr[i]);
+//     }
+// }
+
+//     first repeated element in a string----
+
+// const str = "abbcdde";
+// let flag;
+// for(let i=0; i<str.length-1; i++) {
+//     flag = 0;
+//     for(let j=0; j<str.length-1; j++) {
+//         if(str[i] == str[j]) {
+//             flag++;
+//         }
+
+//     }
+//     if(flag >1){
+//         console.log(str[i]);
+//         break;
+//     }
+// }
+
+
+//   find the length of the last word in a sentence and remove if any space after the last word
+
+// const s = "this is not a pen  ";
+
+// const e = s.trim().split(" ")
+// console.log(e[e.length-1].length);
