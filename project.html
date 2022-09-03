@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="project.css">
 </head>
 <body>
-    <div id="projectDiv" >Hello</div>
-    <button onclick="handleClick">click</button>
+    <div id="projectDiv" >
+        <h1>Hello</h1>
+    </div>
+    <button onclick="handleClick()">click</button>
 
     <script>
         function handleClick() {
-            document.getElementById("projectDiv").style('')
+            document.getElementById("projectDiv").style.backgroundColor="blue";
         }
     </script>
 </body>

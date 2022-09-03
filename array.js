@@ -1,3 +1,67 @@
+// packet question / rice chaak question --------------------------------------------------------
+
+// let largePackCount = 0;
+// let smallPackCount = 0;
+
+// function getQuantity(input) {
+//     if (input == 3 || input == 1) {
+//         console.log("No packets available")
+//     }
+
+//     if (input == 2) {
+
+//         console.log("2kg packet required= 1 Nos")
+
+//     } 
+//     else if (input == 4) {
+//         console.log("2kg packet required 2 Nos")
+
+//     } 
+//     else if (input == 5) {
+//         console.log("5kg packet required 1 Nos")
+
+//     } 
+//     else if (input > 5) {
+//         if (input % 5 == 0) {
+//             largePackCount = input / 5;
+//             console.log("5 kg packet required Nos ", largePackCount)
+
+//         }
+//         else {
+//             let mod = input % 5;
+//             if (mod % 2 == 0) {
+//                 smallPackCount = mod / 2;
+//                 largePackCount = parseInt(input / 5)
+//                 let check = smallPackCount * 2 + largePackCount * 5;
+//                 if (input == check) {
+//                     console.log("5 kg packet required Nos ", largePackCount);
+//                     console.log("2kg packet required Nos", smallPackCount);
+
+//                 }
+//             } 
+//             else {
+//                 largePackCount = parseInt(input / 5) - 1
+//                 let balance = input - largePackCount * 5
+//                 if (balance % 2 == 0) {
+//                     smallPackCount = balance / 2;
+//                 }
+//                 let check = smallPackCount * 2 + largePackCount * 5;
+//                 if (input == check) {
+//                     console.log("5 kg packet required Nos ", largePackCount);
+//                     console.log("2kg packet required Nos", smallPackCount);
+//                 }
+//             }
+//         }
+//     } 
+//     else {
+//         console.log("No packets are available")
+//     }
+// }
+
+// getQuantity(16)
+
+//--------------------------------------------------------
+
 // array descending order == 
 
 // const array = [5,4,2,6,1];
@@ -12,6 +76,8 @@
 //     }
 //     console.log(array[i]);
 // }
+
+//--------------------------------------------------------
 
 //palindrome--
 
@@ -33,6 +99,7 @@
 //     console.log('yes');
 // }
 
+//--------------------------------------------------------
 // print vittu poya number from 1- to - 15--
 
 // const array = [1, 3, 5, 6, 7, 8, 10, 14, 15];
@@ -48,6 +115,7 @@
 //     }
 // }
 
+//--------------------------------------------------------
 // delete or remove duplication / repeat number from an array--
 
 // const array = [1,3,5,5,8,9,9,9,5];
@@ -71,6 +139,7 @@
 
 // console.log(array);
 
+//--------------------------------------------------------
 // prime numbers print--
 
 // const a = [15,5,2,6,9,10,13,1, 5, 2, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21,23, 25,27,29,31];
@@ -106,6 +175,7 @@
 //     }
 // }
 
+//--------------------------------------------------------
 //   unique elements ---
 
 // const arr  = [1,2,2,3,4,5,4,4];
@@ -122,6 +192,7 @@
 //     }
 // }
 
+//--------------------------------------------------------
 //     first repeated element in a string----
 
 // const str = "abbcdde";
@@ -141,9 +212,18 @@
 // }
 
 
+//--------------------------------------------------------
 //   find the length of the last word in a sentence and remove if any space after the last word
 
 // const s = "this is not a pen  ";
 
 // const e = s.trim().split(" ")
 // console.log(e[e.length-1].length);
+
+
+// object to array-------- Array.from()
+
+// const array = [1,2,3,1,2,3,5,4,5];
+
+// const ne =  Array.from(new Set(array));
+// console.log(ne);

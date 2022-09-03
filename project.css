@@ -1,3 +1,5 @@
-.projectDiv{
-    color: blueviolet;
+#projectDiv{
+    background-color: blueviolet;
+    width: 33rem;
+    height: 33rem;
 }
